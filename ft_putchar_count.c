@@ -6,11 +6,11 @@
 /*   By: anggonza <anggonza@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/11/03 16:16:21 by anggonza          #+#    #+#             */
-/*   Updated: 2021/11/03 17:49:02 by anggonza         ###   ########.fr       */
+/*   Updated: 2021/11/03 18:47:21 by anggonza         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "printf.h"
+#include "ft_printf.h"
 
 static void	ft_putchar(char c)
 {
@@ -20,5 +20,5 @@ static void	ft_putchar(char c)
 void	ft_putchar_count(char c, int *count)
 {
 	ft_putchar(c);
-	count++;
+	*count += 1;
 }

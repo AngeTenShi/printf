@@ -6,11 +6,11 @@
 /*   By: anggonza <anggonza@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/11/03 15:17:31 by anggonza          #+#    #+#             */
-/*   Updated: 2021/11/03 18:15:43 by anggonza         ###   ########.fr       */
+/*   Updated: 2021/11/03 18:52:18 by anggonza         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "printf.h"
+#include "ft_printf.h"
 
 int	ft_checkflag(const char *input, int index, int *count, va_list args)
 {
@@ -29,6 +29,8 @@ int	ft_checkflag(const char *input, int index, int *count, va_list args)
 		ft_printunsigned_count(va_arg(args, unsigned int), count);
 	else if (input[i] == 'x')
 		ft_printhexa(va_arg(args, unsigned int), count);
+	else if (input[i] == 'X')
+		ft_printhexa_caps(va_arg(args, unsigned int), count);
 	else if (input[i] == '%')
 		return (0);
 	else

@@ -1,16 +1,16 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   ft_putptr_count.c                                  :+:      :+:    :+:   */
+/*   ft_printptr_count.c                                :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
 /*   By: anggonza <anggonza@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/11/03 17:25:14 by anggonza          #+#    #+#             */
-/*   Updated: 2021/11/03 17:38:48 by anggonza         ###   ########.fr       */
+/*   Updated: 2021/11/03 18:42:07 by anggonza         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "printf.h"
+#include "ft_printf.h"
 
 void	ft_printptr_count(unsigned long ptr, int *count, int state)
 {

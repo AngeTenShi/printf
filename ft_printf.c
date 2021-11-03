@@ -6,11 +6,11 @@
 /*   By: anggonza <anggonza@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/11/03 14:25:44 by anggonza          #+#    #+#             */
-/*   Updated: 2021/11/03 18:32:08 by anggonza         ###   ########.fr       */
+/*   Updated: 2021/11/03 18:43:54 by anggonza         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "printf.h"
+#include "ft_printf.h"
 
 int	ft_printf(const char *input, ...)
 {
