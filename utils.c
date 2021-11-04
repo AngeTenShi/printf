@@ -6,7 +6,7 @@
 /*   By: anggonza <anggonza@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/07/31 00:56:08 by anggonza          #+#    #+#             */
-/*   Updated: 2021/11/03 18:42:07 by anggonza         ###   ########.fr       */
+/*   Updated: 2021/11/04 14:50:10 by anggonza         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -42,6 +42,11 @@ size_t	ft_strlen(const char *s)
 
 void	ft_putstr(char *s, int *count)
 {
+	if (!s)
+	{
+		ft_putstr("(null)", count);
+		return ;
+	}
 	while (*s)
 	{
 		ft_putchar_count(*s, count);
