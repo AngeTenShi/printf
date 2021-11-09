@@ -6,7 +6,7 @@
 #    By: anggonza <anggonza@student.42.fr>          +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2021/10/21 16:46:30 by anggonza          #+#    #+#              #
-#    Updated: 2021/11/03 18:03:44 by anggonza         ###   ########.fr        #
+#    Updated: 2021/11/09 17:39:45 by anggonza         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -14,7 +14,6 @@ NAME	= libftprintf.a
 
 SRCS	= ft_printf.c \
 ft_checkflag.c \
-ft_printhexa.c \
 ft_printhexa.c \
 ft_putchar_count.c \
 utils.c \
